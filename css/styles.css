@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(26, 26, 26);
+    color: white;
+    font-family: sans-serif;
+}
+
+.box {
+    background-color: #252525;
+    margin: 20px;
+    padding: 20px;
+    padding-top: 5px;
+    border-radius: 32px;
+}
+
+.tt:link {
+    color: purple;
+}
+
+.yt:link {
+    color: red;
+}
+
+.tt:visited {
+    color: purple;
+}
+
+.yt:visited {
+    color: red;
+}
+
+.tt:hover {
+    color: rgb(221, 0, 221);
+}
+
+.yt:hover {
+    color: rgb(255, 95, 95);
+}
+
+.tt:active {
+    color: rgb(221, 0, 221);
+}
+
+.yt:active {
+    color: rgb(255, 95, 95);
+}
+
+.topnav {
+    background-color: #000000;
+    border-radius: 32px;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 10px;
+}
+
+.socials {
+    background-color: #000000;
+    border-radius: 32px;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.rainbow {
+    animation: colorRotate 3s linear 0s infinite;
+  }
+  
+  @keyframes colorRotate {
+    from {
+      color: #6666ff;
+    }
+    10% {
+      color: #0099ff;
+    }
+    50% {
+      color: #00ff00;
+    }
+    75% {
+      color: #ff3399;
+    }
+    100% {
+      color: #6666ff;
+    }
+  }
