@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background-image: url("/images/speed.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.title {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 20px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    color: white;
+    border: 3px solid white;
+    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 50%;
+    text-align: center;
+    border-radius: 50px;
+    width: 75%;
+}
+
+.box {
+    margin-top: 50px;
+    font-family: "Pixelify Sans", sans-serif;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    color: white;
+    border: 3px solid white;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    border-radius: 50px;
+    width: 75%;
+}
+
+a, a:visited, a:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.315);
+    padding: 5px;
+    width: 30%;
+    border-radius: 10px
+}
+
+.pfp {
+    border-radius: 69999px;
+    width: 100px;
+}
