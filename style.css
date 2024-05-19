@@ -3,8 +3,7 @@
 body, html {
     height: 100%;
     margin: 0;
-    background-image: url("/images/speed.gif");
-    background-color: black;
+    background-image: url("https://randomguyfromyt.github.io/randomwebsite/images/speed.gif");
     background-repeat: no-repeat;
     background-size: cover;
 }
